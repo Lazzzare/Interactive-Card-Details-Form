@@ -1,4 +1,5 @@
 import React from "react";
+import ThankYou from "./ThankYou";
 
 const Form = () => {
     return (
@@ -54,9 +55,12 @@ const Form = () => {
                 <button type="submit" className="btn">
                     Confirm
                 </button>
+
+                <ThankYou />
             </form>
         </div>
     );
 };
+
 
 export default Form;
