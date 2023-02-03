@@ -51,7 +51,9 @@ const Form = () => {
                         />
                     </div>
                 </article>
-                <button type="submit" className="btn">Confirm</button>
+                <button type="submit" className="btn">
+                    Confirm
+                </button>
             </form>
         </div>
     );
